@@ -1,116 +1,37 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Banner from '../components/Banner'
 
 function Home() {
     return (
        <div>
-           <Banner title="Home" message="Seja Bem-Vindo"/>
-			<section id="one" className="wrapper">
-				<div className="inner">
-					<div className="flex flex-3">
-						<article>
-							<header>
-								<h3>Magna tempus sed amet<br /> aliquam veroeros</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
-							<footer>
-								<a href="#" className="button special">More</a>
-							</footer>
-						</article>
-						<article>
-							<header>
-								<h3>Interdum lorem pulvinar<br /> adipiscing vitae</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
-							<footer>
-								<a href="#" className="button special">More</a>
-							</footer>
-						</article>
-						<article>
-							<header>
-								<h3>Libero purus magna sapien<br /> sed ullamcorper</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
-							<footer>
-								<a href="#" className="button special">More</a>
-							</footer>
-						</article>
-					</div>
-				</div>
-			</section>
-
 			<section id="two" className="wrapper style1 special">
 				<div className="inner">
 					<header>
 						<h2>Ipsum Feugiat</h2>
 						<p>Semper suscipit posuere apede</p>
 					</header>
-					<div className="flex flex-4">
+					<div className="apresentation">
 						<div className="box person">
-							<div className="image round">
-								<img src={require("../images/pic03.jpg")} alt="Person 1" />
+							<div className="image round img">
+								<img src={require("../images/pic04.jpg")} alt="Person 1" />
+								<div className="text">
+									<h4>Nome</h4>
+									<p> "shaushaushas suasuhahsa sasausbuasbas asabusbausbas suabsuabsas asa uasbuasasbu suavsuasva AAAAAAAAAAAAAAAAA".</p>
+									<i class="icon fab fa-github-square"></i>
+									<i class="icon fab fa-linkedin"></i>
+								</div>
 							</div>
-							<h3>Magna</h3>
-							<p>Cipdum dolor</p>
+							<div className="image round img">
+								<img src={require("../images/pic04.jpg")} alt="Person 1" />
+								<div className="text">
+									<h4>Nome</h4>
+									<p>"shaushaushas suasuhahsa sasausbuasbas asabusbausbas suabsuabsas asa uasbuasasbu suavsuasva AAAAAAAAAAAAAAAAA".</p>
+									<i class="icon fab fa-github-square"></i>
+									<i class="icon fab fa-linkedin"></i>
+								</div>
+							</div>
 						</div>
-						<div className="box person">
-							<div className="image round">
-								<img src={require("../images/pic04.jpg")} alt="Person 2" />
-							</div>
-							<h3>Ipsum</h3>
-							<p>Vestibulum comm</p>
-						</div>
-						<div className="box person">
-							<div className="image round">
-								<img src={require("../images/pic05.jpg")} alt="Person 3" />
-							</div>
-							<h3>Tempus</h3>
-							<p>Fusce pellentes</p>
-						</div>
-						<div className="box person">
-							<div className="image round">
-								<img src={require("../images/pic06.jpg")} alt="Person 4" />
-							</div>
-							<h3>Dolore</h3>
-							<p>Praesent placer</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="three" className="wrapper special">
-				<div className="inner">
-					<header className="align-center">
-						<h2>Nunc Dignissim</h2>
-						<p>Aliquam erat volutpat nam dui </p>
-					</header>
-					<div className="flex flex-2">
-						<article>
-							<div className="image fit">
-								<img src={require("../images/pic01.jpg")} alt="Pic 01" />
-							</div>
-							<header>
-								<h3>Praesent placerat magna</h3>
-							</header>
-							<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
-							<footer>
-								<a href="#" className="button special">More</a>
-							</footer>
-						</article>
-						<article>
-							<div className="image fit">
-								<img src={require("../images/pic02.jpg")} alt="Pic 02" />
-							</div>
-							<header>
-								<h3>Fusce pellentesque tempus</h3>
-							</header>
-							<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
-							<footer>
-								<a href="#" className="button special">More</a>
-							</footer>
-						</article>
 					</div>
 				</div>
 			</section>
