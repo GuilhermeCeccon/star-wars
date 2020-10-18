@@ -23,7 +23,7 @@ export default function Starships() {
 
     return (
         <>
-        <Banner title="OI" message="Tudo bem?"/>
+        <Banner title="" message=""/>
         {msg}
         {starships.map((item, chave) =>
             <div key={chave}>

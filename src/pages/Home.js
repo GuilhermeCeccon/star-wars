@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import Banner from '../components/Banner'
 
 function Home() {
     return (
        <div>
+		   <Banner title="" message=""/>
 			<section id="two" className="wrapper style1 special">
 				<div className="inner">
 					<header>

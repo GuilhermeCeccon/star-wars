@@ -2750,7 +2750,11 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 1em;
+			width: 10px;
+		}
+
+		.img-logo {
+			width: 80px;
 		}
 
 		#header a {
@@ -2932,13 +2936,13 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
-		background-size: cover;
+		background-image: url('../../images/img-banner.png');
+		background-size: 550px;
+		height: 400px;
+		text-align: center;
 		background-position: top;
-		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #5385c1;
 	}
 
 		#banner h1 {
@@ -3023,6 +3027,7 @@
 		font-size: 0.8em;
 		margin: 0 0 2em 0;
 		padding: 0;
+		text-align: center;
 	}
 
 		#footer .copyright a {

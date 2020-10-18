@@ -23,7 +23,7 @@ export default function Species() {
 
     return (
         <>
-        <Banner title="OI" message="Tudo bem?"/>
+        <Banner title="" message=""/>
         {msg}
         {species.map((item, chave) =>
             <div key={chave}>

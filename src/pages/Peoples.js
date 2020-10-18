@@ -23,7 +23,7 @@ export default function Peoples() {
 
     return (
         <>
-        <Banner title="OI" message="Tudo bem?"/>
+        <Banner title="" message=""/>
         {msg}
         {peoples.map((item, chave) =>
             <div key={chave}>

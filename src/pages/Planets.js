@@ -24,7 +24,7 @@ export default function Planets() {
 
     return (
         <>
-        <Banner title="OI" message="Tudo bem?"/>
+        <Banner title="" message=""/>
         {msg}
         {planets.map((item, chave) =>
             <div key={chave}>

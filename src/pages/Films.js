@@ -23,7 +23,7 @@ export default function Films() {
 
     return (
         <>
-        <Banner title="OI" message="Tudo bem?"/>
+        <Banner title="" message=""/>
         {msg}
         {films.map((item, chave) =>
             <div key={chave}>
