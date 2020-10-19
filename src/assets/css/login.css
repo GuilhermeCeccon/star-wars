@@ -21,6 +21,19 @@ form {
   margin: 0;
 }
 
+.txt {
+  margin-top: 80px;
+}
+
+.btn-login {
+  width: 100%;
+  justify-content: center;
+}
+ .btn {
+  border-radius: 20px;
+  padding: 0.54rem 2.14rem;
+ }
+
 .md-form .prefix ~ input, .md-form .prefix ~ textarea {
   width: 100% !important;
 }
