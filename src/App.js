@@ -16,19 +16,18 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Header />
+      <Header />
       <Switch>
         <Route path="/" exact={true} component={Home} />
         <Route path="/login" exact={true} component={Login} />
-		<Route path="/films" exact={true} component={Films} />
-		<Route path="/planets" exact={true} component={Planets} />
-		<Route path="/peoples" exact={true} component={Peoples} />
-		<Route path="/species" exact={true} component={Species} />
-		<Route path="/starships" exact={true} component={Starships} />
+        <Route path="/films" exact={true} component={Films} />
+        <Route path="/planets" exact={true} component={Planets} />
+        <Route path="/peoples" exact={true} component={Peoples} />
+        <Route path="/species" exact={true} component={Species} />
+        <Route path="/starships" exact={true} component={Starships} />
       </Switch>
     </BrowserRouter>
-			
-      <Footer/>
+    <Footer/>
     </>
   );
 }

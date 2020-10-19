@@ -1785,7 +1785,7 @@
 		}
 
 		section.wrapper header, article.wrapper header {
-			margin-bottom: 4em;
+			margin-bottom: 2em;
 		}
 
 			section.wrapper header h2, article.wrapper header h2 {
@@ -2727,11 +2727,12 @@
 		height: 3.25em;
 		left: 0;
 		line-height: 3.25em;
-		/* position: absolute; */
 		text-align: right;
 		top: 4em;
 		width: 100%;
 		z-index: 10001;
+		margin-top: 15px;
+		margin-bottom: 92px;
 	}
 
 		#header .inner {
@@ -3077,6 +3078,7 @@
 
 	.apresentation {
 		display: flex;
+		justify-content: center;
 	}
 
 	.img {
@@ -3093,4 +3095,8 @@
 	.icon {
 		font-size: 30px;
 		margin-right: 5px;
+	}
+
+	.info {
+		color: white;
 	}

@@ -8,7 +8,7 @@ function Footer() {
         <div className="inner">
             <div className="center">
                 <div className="copyright">
-                    &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+                    &copy; TRABALHO DESTINADO A MATÉRIA DE TÓPICOS ESPECIAIS EM PROGRAMAÇÃO.
                 </div>
             </div>
         </div>
